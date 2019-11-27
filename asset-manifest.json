@@ -1,21 +1,37 @@
 {
   "files": {
-    "main.css": "/temaoppgave-demo/static/css/main.8fb110ef.chunk.css",
-    "main.js": "/temaoppgave-demo/static/js/main.ed02eb38.chunk.js",
-    "main.js.map": "/temaoppgave-demo/static/js/main.ed02eb38.chunk.js.map",
+    "main.css": "/temaoppgave-demo/static/css/main.2e208485.chunk.css",
+    "main.js": "/temaoppgave-demo/static/js/main.cd950e9c.chunk.js",
+    "main.js.map": "/temaoppgave-demo/static/js/main.cd950e9c.chunk.js.map",
     "runtime-main.js": "/temaoppgave-demo/static/js/runtime-main.9634bea4.js",
     "runtime-main.js.map": "/temaoppgave-demo/static/js/runtime-main.9634bea4.js.map",
     "static/js/2.96773e4f.chunk.js": "/temaoppgave-demo/static/js/2.96773e4f.chunk.js",
     "static/js/2.96773e4f.chunk.js.map": "/temaoppgave-demo/static/js/2.96773e4f.chunk.js.map",
     "index.html": "/temaoppgave-demo/index.html",
-    "precache-manifest.c15c005ab468eda6f616c593c677bae9.js": "/temaoppgave-demo/precache-manifest.c15c005ab468eda6f616c593c677bae9.js",
+    "precache-manifest.b35c5b3e58faa9bb025a08a5d043350a.js": "/temaoppgave-demo/precache-manifest.b35c5b3e58faa9bb025a08a5d043350a.js",
     "service-worker.js": "/temaoppgave-demo/service-worker.js",
-    "static/css/main.8fb110ef.chunk.css.map": "/temaoppgave-demo/static/css/main.8fb110ef.chunk.css.map"
+    "static/css/main.2e208485.chunk.css.map": "/temaoppgave-demo/static/css/main.2e208485.chunk.css.map",
+    "static/media/2fast2furious.jpg": "/temaoppgave-demo/static/media/2fast2furious.7f3ac66e.jpg",
+    "static/media/back-to-the-future.jpg": "/temaoppgave-demo/static/media/back-to-the-future.57074d9d.jpg",
+    "static/media/dark-knight.jpg": "/temaoppgave-demo/static/media/dark-knight.38b11925.jpg",
+    "static/media/fast-and-furious.jpg": "/temaoppgave-demo/static/media/fast-and-furious.c1c09946.jpg",
+    "static/media/fast-and-furious6.jpg": "/temaoppgave-demo/static/media/fast-and-furious6.690e4e0c.jpg",
+    "static/media/fast-and-furious7.jpg": "/temaoppgave-demo/static/media/fast-and-furious7.eedd3e06.jpg",
+    "static/media/fate-and-furious.jpg": "/temaoppgave-demo/static/media/fate-and-furious.29531868.jpg",
+    "static/media/jaws.jpg": "/temaoppgave-demo/static/media/jaws.ebbdaf02.jpg",
+    "static/media/potc-black-pearl.jpg": "/temaoppgave-demo/static/media/potc-black-pearl.eba09076.jpg",
+    "static/media/ringenes-herre-fellowship.jpg": "/temaoppgave-demo/static/media/ringenes-herre-fellowship.0818ca1a.jpg",
+    "static/media/ringenes-herre-return.jpg": "/temaoppgave-demo/static/media/ringenes-herre-return.cb2dc4c8.jpg",
+    "static/media/the-fast-and-the-furious.jpg": "/temaoppgave-demo/static/media/the-fast-and-the-furious.3e0b01a9.jpg",
+    "static/media/tokyo-drift.jpg": "/temaoppgave-demo/static/media/tokyo-drift.675cec4a.jpg",
+    "static/media/toy-story.jpg": "/temaoppgave-demo/static/media/toy-story.b876e458.jpg",
+    "static/media/up.jpg": "/temaoppgave-demo/static/media/up.148a4c1b.jpg",
+    "static/media/wall·e.jpg": "/temaoppgave-demo/static/media/wall·e.8c209c91.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9634bea4.js",
     "static/js/2.96773e4f.chunk.js",
-    "static/css/main.8fb110ef.chunk.css",
-    "static/js/main.ed02eb38.chunk.js"
+    "static/css/main.2e208485.chunk.css",
+    "static/js/main.cd950e9c.chunk.js"
   ]
 }
