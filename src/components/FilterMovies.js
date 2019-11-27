@@ -4,30 +4,29 @@ import Localmovies from './Localmovies'
 import './filtermovies.css'
 
 const FilterMovies = () => {
-    const [movies, setMovies] =useState(Movies.movies)
+    const [movies,
+        setMovies] = useState(Movies.movie)
     const filtermovie = (e) => {
-        setMovies(
-            Movies.movies.filter(
-                movie => movie.titel.toLocaleLowerCase().includes(e.target.value)
-            )
-        )
+        setMovies(Movies.movie.filter(movie => movie.title.toLowerCase().includes(e.target.value.toLowerCase())))
     }
 
-    return(
+    return (
         <div className="filtermovies">
-            <input type="text" placeholder="Søk etter film" onInput={filtermovie} className="input"/>
+            <div className="input-search">
+                <input
+                    type="text"
+                    placeholder="Søk etter film"
+                    onInput={filtermovie}
+                    className="input"/>
+            </div>
             <div className="movies">
-                {
-                    movies.map(
-                        (movie, i) =>
-                        <Localmovies 
-                            key={i}
-                            title={movie.title}
-                            releaseYear={movie.releaseYear}
-                            img={movie.img}
-                        />
-                    )
-                }
+                {movies.map((movie, i) => <Localmovies
+                    key={i}
+                    title={movie.title}
+                    releaseYear={movie.releaseYear}
+                    img={movie.img}
+                    sjanger={movie.sjanger}/>)
+}
             </div>
         </div>
     )

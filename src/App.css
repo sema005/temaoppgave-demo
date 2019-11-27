@@ -12,6 +12,7 @@ body, html {
 }
 
 .top-nav {
+  height: 1px;
   display: grid;
   justify-content: center;
   grid-auto-flow: column;
@@ -26,12 +27,4 @@ body, html {
   color: white;
   text-decoration: none;
   font-size: 20px;
-}
-
-.section {
-  padding: 2rem;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
-  width: 200px;
 }
