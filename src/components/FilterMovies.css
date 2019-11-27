@@ -2,7 +2,6 @@
 .filtermovies {
     background-color: white;
     width: 75vw;
-    height: 100vh;
     display: grid;
     grid-auto-flow: row;
     justify-content: center;
@@ -17,8 +16,6 @@
     outline: none;
     font-size: medium;
     padding: .2rem;
-    grid-column-start: 4;
-    grid-column-end: 6;
 }
 
 .input::placeholder {
@@ -26,10 +23,10 @@
 }
 
 .movies {
+    width: 75vw;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    overflow: scroll;
     background-color: rgba(232, 232, 232, 0.3);
     color: black;
     padding: 2rem;
@@ -50,4 +47,5 @@ h1 {
 
 p {
     font-size: 19px;
+    padding-bottom: 5rem;
 }

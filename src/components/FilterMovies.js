@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import Movies from '../files/Movies'
+import Movies from '../files/movie'
 import Localmovies from './Localmovies'
-import './FilterMovies.css'
+import './filtermovies.css'
 
 const FilterMovies = () => {
     const [movies, setMovies] =useState(Movies.movies)
@@ -15,8 +15,8 @@ const FilterMovies = () => {
 
     return(
         <div className="filtermovies">
-            <div className="movies">
             <input type="text" placeholder="Søk etter film" onInput={filtermovie} className="input"/>
+            <div className="movies">
                 {
                     movies.map(
                         (movie, i) =>
