@@ -9,7 +9,7 @@ const Movies = {
         {
             titel: "2 Fast 2 Furious",
             releaseYear : "Utgivelsesår: 2003",
-            img: "../"
+            img: "../img/2fast2furious.jpg"
         },
         {
             titel: "The Fast and the Furious: Tokyo Drift",
