@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2c3764a4af294b38d180df612bf0b86",
+    "revision": "304c724fa32d913d6d3fcdf922b9fdf8",
     "url": "/temaoppgave-demo/index.html"
   },
   {
-    "revision": "905d377b276df535cf9c",
+    "revision": "5b0bc39d580c49697eaf",
     "url": "/temaoppgave-demo/static/css/main.a6a09894.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/temaoppgave-demo/static/js/2.96773e4f.chunk.js"
   },
   {
-    "revision": "905d377b276df535cf9c",
-    "url": "/temaoppgave-demo/static/js/main.81d6d6d3.chunk.js"
+    "revision": "5b0bc39d580c49697eaf",
+    "url": "/temaoppgave-demo/static/js/main.ed02eb38.chunk.js"
   },
   {
     "revision": "a2a0ef6c7bb57dbc3c17",
