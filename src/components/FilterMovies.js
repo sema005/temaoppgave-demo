@@ -22,7 +22,7 @@ const FilterMovies = () => {
                         (movie, i) =>
                         <Localmovies 
                             key={i}
-                            titel={movie.titel}
+                            title={movie.title}
                             releaseYear={movie.releaseYear}
                             img={movie.img}
                         />

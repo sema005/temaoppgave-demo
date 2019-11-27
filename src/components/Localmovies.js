@@ -4,8 +4,8 @@ const Localmovies = (props) => {
 
     return(
         <div className="filmer">
-            <img src={props.img} alt={"bilde av: " + props.titel + " filmen"} />
-            <h1>{props.titel}</h1>
+            <img src={props.img} alt={"Filmen: " + props.title} />
+            <h1>{props.title}</h1>
             <li>{props.releaseYear}</li>
         </div>
 
