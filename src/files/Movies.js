@@ -2,102 +2,104 @@ const Movies = {
     "description": "Favorite movies",
     "movies": [
         {
-            titel: "The Fast and the Furious",
+            title: "The Fast and the Furious",
             releaseYear: "Utgivelsesår: 2001",
             img: "the-fast-and-the-furious.jpg"
         },
         {
-            titel: "2 Fast 2 Furious",
+            title: "2 Fast 2 Furious",
             releaseYear : "Utgivelsesår: 2003",
             img: "../img/2fast2furious.jpg"
         },
         {
-            titel: "The Fast and the Furious: Tokyo Drift",
+            title: "The Fast and the Furious: Tokyo Drift",
             releaseYear : "Utgivelsesår: 2006",
-            img: "../"
+            img: "../img/tokyo-drift.jpg"
         },
         {
-            titel: "Fast & Furous",
+            title: "Fast & Furious",
             releaseYear: "Utgivelsesår: 2009",
-            img: "../"
+            img: "../img/fast-and-furious.jpg"
         },
         {
-            titel: "Fast Five",
+            title: "Fast Five",
             releaseYear: "Utgivelsesår: 2011",
-            img: "../"
+            img: "../img/fast-five.jpg"
         },
         {
-            titel: "Fast & Furious 6",
+            title: "Fast & Furious 6",
             releaseYear : "Utgivelsesår: 2013",
-            img: "../"
+            img: "../img/fast-and-furious6.jpg"
         },
         {
             titel: "Furious 7",
             releaseYear : "Utgivelsesår: 2015",
-            img: "../"
+            img: "../img/fast-and-furious7.jpg"
         },
         {
-            titel: "The fate of the furious",
+            title: "The fate of the furious",
             releaseYear : "Utgivelsesår: 2017",
-            img: "../"
+            img: "../img/fate-and-furious.jpg"
         },
         {
-            titel: "The Dark Knight",
+            title: "The Dark Knight",
             releaseYear : "2008",
+            img: "../img/dark-knight.jpg"
         },
         {
-            titel: "Forrest Gump",
+            title: "Forrest Gump",
             releaseYear : "1994",
+            img: "../img/forrest-gump.jpg"
         },
         {
-            titel: "The Lord of the Rings: The Fellowship of the Ring",
+            title: "The Lord of the Rings: The Fellowship of the Ring",
             releaseYear: "Utgivelsesår: 2001",
-            img: "../"
+            img: "../img/ringenes-herre-fellowship.jpg"
         },
         {
-            titel: "The Lord of the Rings: The Return of the King",
+            title: "The Lord of the Rings: The Return of the King",
             releaseYear : "Utgivelsesår: 2003",
-            img: "../"
+            img: "../img/ringenes-herre-return.jpg"
         },
         {
-            titel: "Gladiator",
+            title: "Gladiator",
             releaseYear : "Utgivelsesår: 2000",
-            img: "../"
+            img: "../img/gladiator.jpg"
         },
         {
-            titel: "Pirates of the Caribbean: The Curse of the Black Pearl",
+            title: "Pirates of the Caribbean: The Curse of the Black Pearl",
             releaseYear : "Utgivelsesår: 2003",
-            img: "../"
+            img: "../img/potc-black-pearl.jpg"
         },
         {
-            titel: "Back to the Future",
+            title: "Back to the Future",
             releaseYear : "Utgivelsesår: 1985",
-            img: "../"
+            img: "../img/back-to-the-future.jpg"
         },
         {
-            titel: "WALL·E",
+            title: "WALL·E",
             releaseYear : "Utgivelsesår: 2008",
-            img: "../"
+            img: "../img/wall·e.jpg"
         },
         {
-            titel: "Up",
+            title: "Up",
             releaseYear : "Utgivelsesår: 2009",
-            img: "../"
+            img: "../img/up.jpg"
         },
         {
-            titel: "E.T the Extra-Terrestrial",
+            title: "E.T the Extra-Terrestrial",
             releaseYear : "Utgivelsesår: 1982",
-            img: "../"
+            img: "../img/e-t.jpg"
         },
         {
-            titel: "JAWS",
+            title: "JAWS",
             releaseYear : "Utgivelsesår: 1975",
-            img: "../"
+            img: "../img/jaws.jpg"
         },
         {
-            titel: "Toy Story",
+            title: "Toy Story",
             releaseYear : "Utgivelsesår: 2005",
-            img: "../"
+            img: "../img/tory-story.jpg"
         },
 
     ]
