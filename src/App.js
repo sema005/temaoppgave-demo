@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Router, Link } from "@reach/router"
+import Checklist from './components/Checklist'
+import FilterMovies from './components/FilterMovies';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+const App = () => {
+
+  return(
+    <div>
+      <header>
+        <nav className="top-nav">
+          <Link to="/">Checklist</Link>
+          <Link to="movies">Movies</Link>
+        </nav>
       </header>
+      <Router>
+        <Checklist path="/" /> 
+        <FilterMovies path="movies" />
+      </Router>
     </div>
-  );
+  )
 }
 
 export default App;
