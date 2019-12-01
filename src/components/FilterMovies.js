@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Movies from '../files/movie'
 import Localmovies from './Localmovies'
 import './filtermovies.css'
+import GenreButton from './GenreButton'
 
 const FilterMovies = () => {
     const [movies,
@@ -9,26 +10,35 @@ const FilterMovies = () => {
     const filtermovie = (e) => {
         setMovies(Movies.movie.filter(movie => movie.title.toLowerCase().includes(e.target.value.toLowerCase())))
     }
-   
+
+    const genres = [
+        "Comedy",
+        "Thriller",
+        "Adventure",
+        "Action",
+        "Crime",
+        "Fantasy",
+        "Romance",
+        "Family",
+        "Sci-Fi"
+    ]
+
+    const filterSjangre = (val) => {
+        setMovies(Movies.movie.filter(movie => movie.sjanger.includes(val), console.log(val)))
+    }
+
     return (
         <div className="filtermovies">
-            <div className="input-search">
-                <input
-                    type="text"
-                    placeholder="Søk etter film"
-                    onInput={filtermovie}
-                    className="input"/>
+            <div className="search-sjangere">
+                <div className="input-search">
+                    <input
+                        type="text"
+                        placeholder="Søk etter film"
+                        onInput={filtermovie}
+                        className="input"/>
+                </div>
                 <div className="sjangere">
-                    <button className="sjanger" value="Action">Action</button>
-                    <button className="sjanger" value="Adventure">Adventure</button>
-                    <button className="sjanger" value="Comedy">Comedy</button>
-                    <button className="sjanger" value="Thriller">Thriller</button>
-                    <button className="sjanger" value="Crime">Crime</button>
-                    <button className="sjanger" value="Drama">Drama</button>
-                    <button className="sjanger" value="Fantasy">Fantasy</button>
-                    <button className="sjanger" value="Romance">Romance</button>
-                    <button className="sjanger" value="Sci-Fi">Sci-Fi</button>
-                    <button className="sjanger" value="Family">Family</button>
+                    {genres.map(genre => <GenreButton filterSjangre={filterSjangre} genre={genre}/>)}
                 </div>
             </div>
             <div className="movies">
@@ -38,7 +48,7 @@ const FilterMovies = () => {
                     releaseYear={movie.releaseYear}
                     img={movie.img}
                     sjanger={movie.sjanger}/>)
-            }
+}
             </div>
         </div>
     )

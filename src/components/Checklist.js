@@ -18,13 +18,15 @@ const Checklist = () => {
    
     return(
         <div className='submodule'>
-            <h2>Checklist</h2>
-            <input type="text" onKeyDown={addItem} placeholder="Add item to checklist"  />
-            {
-                todos.map(
-                    (todo, i) => <ChecklistSubmodule remove={remove} myNumber={i} todo={todo}/>
-                )
-            }
+            <div>
+                <h2>Checklist</h2>
+                <input type="text" onKeyDown={addItem} placeholder="Add item to checklist"  />
+                {
+                    todos.map(
+                        (todo, i) => <ChecklistSubmodule remove={remove} myNumber={i} todo={todo}/>
+                    )
+                }
+            </div>
         </div>
     )
 }

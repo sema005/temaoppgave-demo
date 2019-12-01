@@ -1,23 +1,42 @@
 
 .filtermovies {
     background-color: white;
-    width: 75vw;
     display: grid;
     grid-auto-flow: row;
     justify-content: center;
-    margin: auto;
+    align-self: center;
     padding-top: 6rem;
 }
 
-.input-search {
+.search-sjangere {
     display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-self: center;  
+}
+
+.sjangere {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 90px));
+    padding-bottom: 1rem;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    height: 80px;
-    width: 75vw;
-    padding-left: 50px;
+}
+
+.sjanger {
+    width: 85px;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.sjanger:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .input {
@@ -33,27 +52,7 @@
     text-align: center;
 }
 
-.sjangere {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: .1rem;
-    grid-template-columns: repeat(5, 1fr);
-}
 
-.sjanger {
-    width: 85px;
-    background-color: black;
-    color: white;
-    outline: none;
-    font-size: 16px;
-    border-radius: 20px;
-}
-
-.sjanger:hover {
-    background-color: white;
-    color: black;
-}
 
 .movies {
     width: 75vw;

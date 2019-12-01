@@ -6,7 +6,7 @@ const Localmovies = (props) => {
         <div className="film">
             <div className="info">
                 <h1>{props.title}</h1>
-                <p>{props.sjanger}
+                <p>Sjanger: {props.sjanger   + " " }
                 </p>
                 <li>{props.releaseYear}</li>
             </div>

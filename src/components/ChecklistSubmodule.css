@@ -1,11 +1,8 @@
-.checklist-item {
-    list-style: none;
+
+.submodule {
     display: grid;
     grid-template-columns: 8fr 1fr 1fr;
-    overflow: scroll;
-    max-height: 40vh;
-}
-
-.checklist-item li.checked {
-    text-decoration: line-through;
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
 }

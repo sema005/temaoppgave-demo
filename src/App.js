@@ -10,12 +10,12 @@ const App = () => {
     <div>
       <header>
         <nav className="top-nav">
-          <Link to="/">Checklist</Link>
+          <Link to="checklist">Checklist</Link>
           <Link to="movies">Movies</Link>
         </nav>
       </header>
       <Router>
-        <Checklist path="/" /> 
+        <Checklist path="checklist" /> 
         <FilterMovies path="movies" />
       </Router>
     </div>
