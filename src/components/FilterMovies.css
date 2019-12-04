@@ -3,9 +3,14 @@
     background-color: white;
     display: grid;
     grid-auto-flow: row;
+    grid-template-columns: 200px 1fr 200px;
     justify-content: center;
     align-self: center;
-    padding-top: 6rem;
+    background-color: #eee;
+}
+
+.black {
+    background-color: #eee;
 }
 
 .search-sjangere {
@@ -40,12 +45,18 @@
 }
 
 .input {
-    width: 100%;
+    width: 99%;
     height: 30px;
-    border-radius: 20px;
     outline: none;
     font-size: medium;
     padding: .2rem;
+    display: grid;
+}
+
+.input-search {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .input::placeholder {
@@ -55,13 +66,12 @@
 
 
 .movies {
-    width: 75vw;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(200px,300px));
     justify-content: center;
     align-items: center;
-    background-color: rgba(232, 232, 232, 0.3);
+    background-color: #888;
     color: black;
     padding: 2rem;
 }
@@ -81,15 +91,16 @@
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: 1fr 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-p {
-    font-size: 19px;
-}
-
-li {
-    padding-bottom: 1rem;
+p, li {
+    font-size: 15px;
+    margin-top: 0;
 }
 
 .info {
@@ -98,3 +109,18 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+.favorite {
+    text-align: center;
+    height: 20px;
+}
+
+.test {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    background-color: #111;
+    color: white;
+    padding: 1rem
+}
+

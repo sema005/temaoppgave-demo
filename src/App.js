@@ -7,17 +7,8 @@ import FilterMovies from './components/FilterMovies';
 const App = () => {
 
   return(
-    <div>
-      <header>
-        <nav className="top-nav">
-          <Link to="checklist">Checklist</Link>
-          <Link to="movies">Movies</Link>
-        </nav>
-      </header>
-      <Router>
-        <Checklist path="checklist" /> 
-        <FilterMovies path="movies" />
-      </Router>
+    <div className="main">
+      <FilterMovies />
     </div>
   )
 }

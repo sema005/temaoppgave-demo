@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import ChecklistSubmodule from './ChecklistSubmodule'
 
 const Checklist = () => {
-    const array = ["Feed cat", "Eat, drink", "sleep", "Stay optimistic", "Dont buy shitt!"]
-    const [todos, setTodos] = useState(array)
+    const Array = ["Feed cat", "Eat, drink", "sleep", "Stay optimistic", "Dont buy shitt!"]
+    const [todos, setTodos] = useState(Array)
     const remove = (i) => {
         setTodos(
             todos.filter( todo => todo !== todos[i])
